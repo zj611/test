@@ -1,0 +1,8 @@
+prefix=/home/zj/ros_space2/install
+
+Name: usb_cam
+Description: Description of usb_cam
+Version: 0.3.6
+Cflags: -I/home/zj/ros_space2/install/include
+Libs: -L/home/zj/ros_space2/install/lib -lusb_cam
+Requires: 
