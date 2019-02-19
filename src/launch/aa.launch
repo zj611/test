@@ -1,0 +1,16 @@
+<launch>
+
+	<group ns="n1" if="0" >
+
+		<node pkg="can" name ="can_publisher_point111111111111" type="can_publisher" 
+		required="false" output="screen" launch-prefix="gnome-terminal -e" />
+		
+		<node pkg="can" name ="can_topic_publisher" type="can_analysis" respwan="true" 
+		output="screen" launch-prefix="gnome-terminal -e" />
+	</group>
+	
+	
+		<node pkg="can" name ="can_topic_test" type="can_test" respwan="false" 
+		output="screen" launch-prefix="gnome-terminal -e" />
+
+</launch>

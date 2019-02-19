@@ -1,0 +1,9 @@
+/home/zj/software/clion/clion-2018.2.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCATKIN_WHITELIST_PACKAGES=can -G "CodeBlocks - Unix Makefiles" /home/zj/ros_space2/src
+CMake Error at CMakeLists.txt:59 (message):
+  find_package(catkin) failed.  catkin was neither found in the workspace nor
+  in the CMAKE_PREFIX_PATH.  One reason may be that no ROS setup.sh was
+  sourced before.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/zj/ros_space2/src/cmake-build-release/CMakeFiles/CMakeOutput.log".
