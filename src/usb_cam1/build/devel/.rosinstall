@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/zj/ros_space2/src/usb_cam/build/devel/setup.sh
